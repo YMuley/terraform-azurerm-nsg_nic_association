@@ -4,7 +4,7 @@ variable "association_list" {
   description = "list of virtual network objects"
 }
 
-variable "network_interface_card_output" {
+variable "network_interface_output" {
   type        = map(any)
   default     = {}
   description = "list of Subnet objects"
