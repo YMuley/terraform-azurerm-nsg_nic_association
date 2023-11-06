@@ -1,13 +1,13 @@
 variable "association_list" {
   type        = list(any)
   default     = []
-  description = "list of virtual network objects"
+  description = "list of nic objects"
 }
 
 variable "network_interface_card_output" {
   type        = map(any)
   default     = {}
-  description = "list of Subnet objects"
+  description = "list of nic objects"
 }
 
 variable "network_security_group_output" {
